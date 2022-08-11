@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Job Tracking</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="Myjobs">
+    <section id="header">
+        <div id="linkedin_img">
+            <img src="img/linkedin.png" alt="Linked In">
+        </div>
+        <div id="search_menu">
+            <input type="text" class="fa fa-search" placeholder="Search"/>
+        </div>
+        <div id="home_div">
+            <a href="#">
+                <i class="fa fa-home w3-xlarge"></i>
+                <label>Home</label>
+            </a>
+        </div>
+        <div id="network_div">
+            <a href="#">
+                <i class="fa fa-users w3-xlarge"></i><br>
+                <label>My Network</label>
+            </a>
+        </div>
+        <div id="jobs_div">
+            <a href="#">
+                <i class="fa fa-briefcase w3-xlarge"></i>
+                <label>Jobs</label>
+            </a>
+        </div>
+        <div id="msg_div">
+            <a href="#">
+                <i class="fa fa-commenting w3-xlarge"></i>
+                <label>Messaging</label>
+            </a>
+        </div>
+        <div id="com_div">
+            <a href="#">
+                <i class="fa fa-home w3-xlarge"></i>
+                <label>Community</label>
+            </a>
+        </div>
+        <div id="ntfy_div">
+            <a href="#">
+                <i class="fa fa-bell w3-xlarge"></i>
+                <label>Notifications</label>
+            </a>
+        </div>
+        <div id="me_div">
+            <a href="#">
+                <i class="fa fa-user w3-xlarge"></i>
+                <label>Me</label>
+            </a>
+        </div>
+        <div id="work_div">
+            <a href="#">
+                <i class="fa fa-th w3-xlarge"></i>
+                <label>Work</label>
+            </a>
+        </div>
+    </section>
+
+    <section id="nav-left">
+        <div id="my_items">
+            <a href="#">
+                <i class="fa fa-bookmark w3-xlarge"></i>
+                <label>My Items</label>
+            </a>
+        </div>
+        <div id="my_jobs">
+            <a href="index.html" style="padding: 2em;">
+                <i class="fa fa-bell w3-xlarge"></i>
+                <label>My Jobs</label>
+            </a>
+        </div>
+        <div id="job_track" class="selected_pg">
+            <a href="#" style="padding: 2em;">
+                <i class="fa fa-archive w3-xlarge"></i>
+                <label>Job Tracking</label>
+            </a>
+        </div>
+        <div id="saved">
+            <a href="#">
+                <i class="fa fa-thumb-tack w3-xlarge"></i>
+                <label>Saved Posts</label>
+            </a>
+        </div>
+        <div id="job_seek">
+            <a href="#">
+                <i class="fa fa-list w3-xlarge"></i>
+                <label>Job Seeker Guidance</label>
+            </a>
+        </div>
+        <div id="app_sett">
+            <a href="#">
+                <i class="fa fa-cog w3-xlarge"></i>
+                <label>Application Settings</label>
+            </a>
+        </div>
+    </section>
+    <section id="tabs">
+        <div id="appli">
+            <a href="#">
+                <button type="menu" class="tabs">My Applications</button>
+            </a>
+        </div>
+        <div id="sav_job">
+            <a href="#">
+                <button type="menu" class="tabs">Saved Jobs</button>
+            </a>
+        </div>
+        <div id="recom">
+            <a href="#">
+                <button type="menu" class="tabs">Recommendations</button>
+            </a>
+        </div>
+        <div>
+            <button id="add_app">Add Applications Manually</button>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div id="app_sec">
+                <h3>APPLIED</h3>
+                <hr>
+                <div class="bg_fd">
+                    <h4>UX Designer</h4>
+                    <label id="small_txt">Better Together</label><br>
+                    <label id="small_txt">Toronto,ON</label>
+                </div>
+                <br>
+                <div class="bg_fd">
+                    <h4>UX Design Intern</h4>
+                    <label id="small_txt">Your Best Bank</label><br>
+                    <label id="small_txt">Toronto,ON</label>
+                </div>
+            </div>
+            <div id="inter_sec">
+                <h3>INTERVIEW</h3>
+                <hr>
+                <div class="bg_fd">
+                    <h4>UX Design Intern</h4>
+                    <label id="small_txt">Pearl Teach</label><br>
+                    <label id="small_txt">Toronto,ON</label>
+                </div>
+                <br>
+                <div class="bg_fd">
+                    <h4>UX Designer</h4>
+                    <label id="small_txt">Cabu Inc.</label><br>
+                    <label id="small_txt">Toronto,ON</label>
+                </div>
+            </div>
+            <div id="foll_sec">
+                <h3>FOLLOWED UP</h3>
+                <hr>
+                <div class="bg_fd">
+                    <h4>UX Designer</h4>
+                    <label id="small_txt">Work it Designs</label><br>
+                    <label id="small_txt">Toronto,ON</label>
+                </div>
+            </div>
+            <div id="off_sec">
+                <h3>OFFER</h3>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <section id="drop">
+        <h3 id="small_txt">Drag and drop to</h3>
+        <button id="drop_btn">ARCHIVE JOBS</button>
+        <hr>
+    </section>
+
+    <section id="sugg">
+        <h3>PEOPLE YOU MAY KNOW</h3>
+        <hr>
+        <table>
+            <tr>
+                <th class="tbl_txt">Because you applied to work it Designs</th>
+                <th class="tbl_txt">Because you applied to Pearl Tech</th>
+                <th class="tbl_txt">Because you applied to Cabu Inc.</th>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Sara Jose <br>
+                        UX Designer @ Work it Designs <br>
+                        Member of women in Tech 
+                     </label>
+                </td>
+                <td>
+                    <label>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Matt Sena<br>
+                        HR Manager @ Pearl Tech<br>
+                        Member of TMU Alumni
+                     </label>
+                </td>
+                <td>
+                    <label>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Lari Smith<br>
+                        Visual Designer @ Cabu Inc.<br>
+                        Part of your network
+                     </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Joan Wise <br>
+                        Director of Design @ Work It Designs<br>
+                        Member of TMU Alumni 
+                     </label>
+                </td>
+                <td>
+                    <label>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Ebu Lopez<br>
+                        UX Researcher @ Pearl Tech<br>
+                        Part of your network
+                     </label>
+                </td>
+                <td>
+                    <label>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        Mari Victoria<br>
+                        UX Lead @ Cabu Inc.<br>
+                        Member of UX Designer Toronto
+                     </label>
+                </td>
+            </tr>
+        </table>
+    </section>
+  </body>
+</html>

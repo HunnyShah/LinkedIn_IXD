@@ -1,0 +1,603 @@
+#Myjobs
+{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F2F1EE;
+}
+
+#header
+{
+    position: absolute;
+    width: 1200px;
+    height: 54px;
+    left: 142px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+}
+.selected_pg
+{
+    border-left: black 7px;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: 1px;
+    border-style: solid;
+}
+#linkedin_img
+{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 40px;
+    top: 9px;
+}
+#search_menu
+{
+    position: absolute;
+    width: 280px;
+    height: 49px;
+    left: 83px;
+    top: 11px;
+}
+#home_div
+{
+    position: absolute;
+    width: 50px;
+    height: 41px;
+    left: 402px;
+    top: 7px;
+    text-align: center;
+}
+#network_div
+{
+    position: absolute;
+width: 120px;
+height: 43px;
+left: 470px;
+top: 5px;
+text-align: center;
+}
+#jobs_div
+{
+    position: absolute;
+width: 50px;
+height: 42px;
+left: 600px;
+top: 6px;
+text-align: center;
+}
+#msg_div
+{
+    position: absolute;
+width: 62px;
+height: 39px;
+left: 680px;
+top: 9px;
+text-align: center;
+}
+#com_div
+{
+    position: absolute;
+width: 69px;
+height: 41px;
+left: 790px;
+top: 7px;
+text-align: center;
+}
+#ntfy_div
+{
+    position: absolute;
+width: 75px;
+height: 42px;
+left: 910px;
+top: 6px;
+text-align: center;
+}
+#me_div
+{
+position: absolute;
+width: 35px;
+height: 42px;
+left: 1030px;
+top: 6px;
+text-align: center;
+}
+#work_div
+{
+    position: absolute;
+width: 48px;
+height: 39px;
+left: 1100px;
+top: 9px;
+text-align: center;
+}
+
+#nav-left
+{
+    position: absolute;
+width: 226px;
+height: 309px;
+left: 148px;
+top: 75px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+#my_items
+{
+    position: absolute;
+width: 225px;
+height: 47px;
+left: 60px;
+top: 15px;
+}
+#my_jobs
+{
+    position: absolute;
+width: 226px;
+height: 50px;
+left: 10px;
+top: 60px;
+}
+#job_track
+{
+    position: absolute;
+width: 226px;
+height: 50px;
+left: 5px;
+top: 120px;
+}
+#saved
+{
+    position: absolute;
+width: 226px;
+height: 50px;
+left: 50px;
+top: 165px;
+}
+#job_seek
+{
+    position: absolute;
+width: 226px;
+height: 50px;
+left: 20px;
+top: 215px;
+}
+#app_sett
+{
+    position: absolute;
+width: 226px;
+height: 54px;
+left: 30px;
+top: 265px;
+}
+
+#applied
+{
+    position: absolute;
+width: 620px;
+height: 490px;
+left: 388px;
+top: 75px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+#small_txt
+{
+    font-size: 12px;
+    color: gray;
+}
+#txt
+{
+    position: absolute;
+width: 152px;
+height: 15px;
+left: 414px;
+top: 164px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+text-transform: capitalize;
+color: #409102;
+}
+#qualify
+{
+    box-sizing: border-box;
+position: absolute;
+width: 200px;
+height: 210px;
+left: 12px;
+top: 265px;
+text-align: left;
+padding: 7px;
+border: 0.5px solid #000000;
+}
+#skills
+{
+    box-sizing: border-box;
+position: absolute;
+width: 270px;
+height: 210px;
+left: 220px;
+top: 265px;
+text-align: left;
+padding: 7px;
+border: 0.5px solid #000000;
+}
+#app_btn
+{
+    position: absolute;
+width: 114px;
+height: 32px;
+left: 495px;
+top: 435px;
+border-radius: 4px;
+background-color:#0471AA;
+color: white;
+}
+#spn
+{
+    position: absolute;
+width: 800px;
+height: 30px;
+left: 393px;
+top: 620px;
+font-size: 25px;
+font-weight: bolder;
+}
+
+#save_one
+{
+    position: absolute;
+    width: 620px;
+    height: 420px;
+    left: 388px;
+    top: 700px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+#txt_one
+{
+    position: absolute;
+width: 330px;
+height: 15px;
+left: 300px;
+top: 104px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height */
+text-transform: capitalize;
+color: darkgray;
+}
+#qualify_one
+{
+    box-sizing: border-box;
+position: absolute;
+width: 200px;
+height: 210px;
+left: 12px;
+top: 190px;
+text-align: left;
+padding: 7px;
+border: 0.5px solid #000000;
+}
+#skills_one
+{
+    box-sizing: border-box;
+position: absolute;
+width: 270px;
+height: 210px;
+left: 220px;
+top: 190px;
+text-align: left;
+padding: 7px;
+border: 0.5px solid #000000;
+}
+#one_btn
+{
+    position: absolute;
+width: 114px;
+height: 32px;
+left: 495px;
+top: 370px;
+border-radius: 4px;
+background-color:#0471AA;
+color: white;
+}
+
+#save_two
+{
+    position: absolute;
+    width: 620px;
+height: 440px;
+left: 388px;
+    top: 1150px;
+    background: #FFFFFF;
+border-radius: 10px;
+}
+#txt_two
+{
+    position: absolute;
+    width: 330px;
+height: 15px;
+left: 300px;
+    top: 104px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color:darkgray;
+}
+#qualify_two
+{
+    box-sizing: border-box;
+position: absolute;
+width: 200px;
+height: 230px;
+left: 12px;
+top: 190px;
+text-align: left;
+padding: 7px;
+border: 0.5px solid #000000;
+}
+#skills_two
+{
+    box-sizing: border-box;
+position: absolute;
+width: 270px;
+height: 230px;
+left: 220px;
+top: 190px;
+text-align: left;
+padding: 7px;
+border: 0.5px solid #000000;
+}
+#two_btn
+{
+    position: absolute;
+width: 114px;
+height: 32px;
+left: 495px;
+top: 370px;
+border-radius: 4px;
+background-color:#0471AA;
+color: white;
+}
+
+h3
+{
+    color: darkblue;
+    font-weight: bolder;
+}
+h5
+{
+    color: gray;
+}
+h2,h4
+{
+    font-weight: bolder;
+}
+
+#nav-right
+{
+    position: absolute;
+width: 336px;
+height: 709px;
+left: 1020px;
+top: 75px;
+padding: 7px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+#seek
+{
+    padding-inline-start: 0%;
+}
+#rig-nav
+{
+    font-weight: bolder;
+    list-style-type:none;
+    padding: 1.3em;
+}
+.odd
+{
+    background-color: #F8F9FA;
+}
+
+#appli
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+
+position: absolute;
+width: 290px;
+height: 52px;
+left: 392px;
+top: 84px;
+
+/* White */
+
+background: #FFFFFF;
+/* LightGray */
+
+border: 1px solid rgba(224, 224, 224, 0.6);
+border-radius: 8px;
+}
+#sav_job
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+
+position: absolute;
+width: 290px;
+height: 52px;
+left: 699px;
+top: 84px;
+
+/* White */
+
+background: #FFFFFF;
+/* LightGray */
+
+border: 1px solid rgba(224, 224, 224, 0.6);
+border-radius: 8px;
+}
+#recom
+{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 15px;
+
+position: absolute;
+width: 290px;
+height: 52px;
+left: 1006px;
+top: 83px;
+
+/* White */
+
+background: #FFFFFF;
+/* LightGray */
+
+border: 1px solid rgba(224, 224, 224, 0.6);
+border-radius: 8px;
+}
+.tabs
+{
+    background-color:#FFFFFF ;
+    border-top:2px;
+    border-right: 2px; 
+    border-left: 2px;
+}
+#add_app
+{
+    position: absolute;
+width: 230px;
+height: 32px;
+left: 392px;
+top: 159px;
+background-color: darkgray;
+margin: 0.5em;
+}
+
+#app_sec
+{
+    position: absolute;
+width: 222.99px;
+height: 360px;
+left: 390px;
+top: 230px;
+background-color: white;
+padding: 1em;
+}
+#inter_sec
+{
+    position: absolute;
+width: 222.99px;
+height: 360px;
+left: 630px;
+top: 230px;
+background-color: white;
+padding: 1em;
+}
+#foll_sec
+{
+    position: absolute;
+width: 222.99px;
+height: 360px;
+left: 870px;
+top: 230px;
+background-color: white;
+padding: 1em;
+}
+#off_sec
+{
+    position: absolute;
+width: 222.99px;
+height: 360px;
+left: 1110px;
+top: 230px;
+background-color: white;
+padding: 1em;
+}
+.bg_fd
+{
+    background-color: #A5BED8;
+    border-radius: 4px;
+    padding: 0.4em;
+}
+
+#drop
+{
+    position: absolute;
+width: 940px;
+height: 88px;
+left: 390px;
+top: 600px;
+padding: 1em;
+    background: #FFFFFF;
+box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+border-radius: 10px;
+font-size: 24px;
+}
+#drop_btn
+{
+    color:white;
+    background-color: #0471AA;
+    font-size: 14px;
+    padding: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: none;
+    position:absolute;
+    left: 700px;
+    top: 37px;
+}
+
+#sugg
+{
+    padding: 1em;
+    position: absolute;
+width: 940px;
+height: 440px;
+left: calc(50% - 907px/2 + 123.5px);
+top: 700px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.tbl_txt
+{
+    color: darkgray;
+    font-size: 14px;
+}
+table
+{
+    border-spacing: 2em;
+}
